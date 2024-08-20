@@ -121,12 +121,12 @@ namespace MahmoudIbrahim_sun_wed_5pm_C__EF_03
                 //    Console.WriteLine($"{item.ProductName} - {item.TotalPurchase}");
                 //}
 
-                ICollection<SalesByCategoryResult> result = northwindContextProcedures.SalesByCategoryAsync("Seafood", "1997").Result;
+                //ICollection<SalesByCategoryResult> result = northwindContextProcedures.SalesByCategoryAsync("Seafood", "1997").Result;
 
-                foreach (var item in result)
-                {
-                    Console.WriteLine($"{item.ProductName} - {item.TotalPurchase}");
-                }
+                //foreach (var item in result)
+                //{
+                //    Console.WriteLine($"{item.ProductName} - {item.TotalPurchase}");
+                //}
             };
         }
     }
