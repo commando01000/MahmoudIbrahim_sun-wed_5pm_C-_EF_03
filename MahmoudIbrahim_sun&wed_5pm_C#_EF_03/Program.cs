@@ -26,8 +26,8 @@ namespace MahmoudIbrahim_sun_wed_5pm_C__EF_03
                 //    Console.WriteLine($"{employee.E.FirstName} {employee.E.LastName}");
                 //}
 
-                //3. List all orders made by a specific customer ALFKI
-                var Cust_Orders = db.Customers.SelectMany(c => c.Orders).Where(c => c.CustomerId == "ALFKI") .ToList();
+                // 3. List all orders made by a specific customer ALFKI
+                var Cust_Orders = db.Customers.SelectMany(c => c.Orders).Where(c => c.CustomerId == "ALFKI").ToList();
 
                 foreach (var cust_order in Cust_Orders)
                 {
